@@ -5,11 +5,11 @@
 #Copy Fresh Chrome Files
 #cp -R /Users/student/Library/Fresh/Default /Users/student/Library/Application\ Support/Google/Chrome/
 
-#Remove all files from desktop
-rm -r /Users/student/Desktop/*
+#Remove all files from current user's desktop
+rm -r ~/Desktop/*
 
-#Remove all files from Documents
-rm -r /Users/student/Documents/*
+#Remove all files from current user's Documents
+rm -r ~/Documents/*
 
-#Remove all files from Downloads
-rm -r /Users/student/Downloads/*
+#Remove all files from current user's Downloads
+rm -r ~/Downloads/*
