@@ -1,4 +1,5 @@
 #!/bin/sh
+#place this file in /usr/local/libexec/
 #Remove Chrome Files
 #rm -r /Users/student/Library/Application\ Support/Google/Chrome/Default
 
