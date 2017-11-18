@@ -4,7 +4,7 @@
 	<dict>
 		
     <key>Label</key>
-		<string>local.cleanstudent.command</string>
+		<string>local.cleanaccount.command</string>
 		
 		<key>Program</key>
 		<string>/usr/local/libexec/cleanstudent.sh</string>
