@@ -1,4 +1,6 @@
 #!/bin/sh
+#place this file in /Users/"CURRENTUSER"/Library/LaunchAgents/
+
 #Remove Chrome Files
 #rm -r /Users/student/Library/Application\ Support/Google/Chrome/Default
 
