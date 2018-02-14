@@ -5,12 +5,31 @@
 
 #Copy Fresh Chrome Files
 #cp -R /Users/student/Library/Fresh/Default /Users/student/Library/Application\ Support/Google/Chrome/
+#
+#
+#Begin
+#
+#Make To Be Deleted older if doesn't exist
+if [! -d "/Users/student/.TBD" ]; then
+	mkdir -r /Users/student/.TBD
+fi
 
-#Remove all files from desktop
-rm -r /Users/student/Desktop/*
+#Move limbo folder to TBD if it exists
+if [ -d "/Users/student/.limbo" ]; then
+  mv -r /Users/student/.limbo /Users/student/.TBD
+fi
 
-#Remove all files from Documents
-rm -r /Users/student/Documents/*
+#remake limbo folder
+mkdir /Users/student/.limbo/
 
-#Remove all files from Downloads
-rm -r /Users/student/Downloads/*
+#Move all files from Student Home Folder to limbo folder
+mv -r /Users/student/ /Users/student/.limbo/
+
+#Make student Documents folder
+mk /Users/student/Documents
+
+#Make student Downloads folder
+mk /Users/student/Downloads
+
+#Delete To Be Deleted folder
+rm -r /Users/student/.TBD
