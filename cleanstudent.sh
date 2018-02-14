@@ -10,7 +10,7 @@
 #Begin
 #
 #Make To Be Deleted older if doesn't exist
-if [! -d "/Users/student/.TBD" ]; then
+if [ ! -d "/Users/student/.TBD" ]; then
 	mkdir -r /Users/student/.TBD
 fi
 
