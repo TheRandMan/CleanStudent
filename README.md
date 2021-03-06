@@ -1,13 +1,13 @@
 # CleanAccount
 
-This is a modified version of CleanStudent that can be used on any account name.
+This is a simple LaunchDeamon that will move data from a user's Desktop, Documents, & Downloads folder to the Trash at login.
 
-CleanAccount wipes all data from Documents, Downloads, & Desktop at login.
+Meant for use on a shared logins where a data from the previous user shouldn't be left over.
 
 # How to use:
 
-Place cleanaccount.sh in /usr/local/libexec/
+- Place cleanaccount.sh in /usr/local/libexec/
 
-Place local.cleanstudent.command.plist in /Users/"DesiredUser"/Library/LaunchAgents
+- Place local.cleanstudent.command.plist in /Users/"DesiredUser"/Library/LaunchAgents
 
-Reboot and login to test
+- Reboot and login to test
